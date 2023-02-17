@@ -10,7 +10,7 @@ function MainHeader() {
       {mobileMenu && (
         <div className='absolute w-screen h-screen z-10 bg-black opacity-50  animate-darken' />
       )}
-      <header className='flex justify-between items-center p-6 md:px-32 md:py-24 '>
+      <header className='flex justify-between items-center p-6 lg:px-40 lg:pt-16 '>
         <h1 className='text-6xl font-bold font-serif tracking-[-12px]'>W.</h1>
         {mobileMenu ? (
           <XMarkIcon
