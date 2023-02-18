@@ -3,10 +3,22 @@
 @tailwind utilities;
 
 html {
-  @media only screen and (max-width: 1200px) {
-    font-size: 95%;
+  @media only screen and (max-width: 1400px) {
+    font-size: 90%;
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1200px) {
+    font-size: 85%;
+  }
+  @media only screen and (max-width: 1115px) {
+    font-size: 80%;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 85%;
+  }
+  @media only screen and (max-width: 890px) {
+    font-size: 80%;
+  }
+  @media only screen and (max-width: 728px) {
     font-size: 100%;
   }
 }
