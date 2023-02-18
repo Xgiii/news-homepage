@@ -4,7 +4,7 @@ import React from 'react';
 function HomePage() {
   return (
     <div className='block'>
-      <div className='p-6 lg:px-40 lg:py-4 flex flex-col md:grid md:grid-cols-3 md:grid-rows-5 md:h-[57vh] gap-6'>
+      <div className='p-6 lg:px-40 lg:py-4 flex flex-col md:grid md:grid-cols-3 md:grid-rows-5 md:h-[55vh] gap-6'>
         <div className='min-h-[40vh] md:min-h-0 md:col-span-2 md:row-span-3 relative'>
           <Image
             src='/image-web-3-desktop.jpg'
@@ -20,7 +20,7 @@ function HomePage() {
           />
         </div>
 
-        <h1 className='md:col-span-1 font-extrabold tracking-wide text-5xl md:text-4xl lg:text-5xl h-full pr-24'>
+        <h1 className='md:col-span-1 font-extrabold tracking-wide text-4xl md:text-5xl lg:text-5xl h-full pr-12'>
           The Bright Future of Web 3.0?
         </h1>
 
@@ -73,7 +73,7 @@ function HomePage() {
         </section>
       </div>
 
-      <section className='flex flex-col space-y-6 md:grid md:grid-cols-3 md:gap-6 md:mt-6 p-6 lg:px-40 lg:py-4'>
+      <section className='flex flex-col mt-6 md:grid md:grid-cols-3 md:gap-6 p-6 lg:px-40'>
         <div className='flex space-x-4 col-span-1'>
           <Image
             src='/image-retro-pcs.jpg'
@@ -82,7 +82,7 @@ function HomePage() {
             height={80}
           />
           <div className='flex flex-col space-y-1'>
-            <h2 className='text-grayish-blue text-3xl font-bold'>01</h2>
+            <h2 className='text-grayish-blue text-3xl font-bold'>02</h2>
             <h2 className='text-very-dark-blue font-bold'>
               Reviving Retro PCs
             </h2>
