@@ -73,7 +73,7 @@ function HomePage() {
         </section>
       </div>
 
-      <section className='flex flex-col mt-6 md:grid md:grid-cols-3 md:gap-6 p-6 lg:px-40'>
+      <section className='flex flex-col space-y-6 md:space-y-0 mt-6 md:grid md:grid-cols-3 md:gap-6 p-6 lg:px-40'>
         <div className='flex space-x-4 col-span-1'>
           <Image
             src='/image-retro-pcs.jpg'
@@ -82,7 +82,7 @@ function HomePage() {
             height={80}
           />
           <div className='flex flex-col space-y-1'>
-            <h2 className='text-grayish-blue text-3xl font-bold'>02</h2>
+            <h2 className='text-grayish-blue text-3xl font-bold'>01</h2>
             <h2 className='text-very-dark-blue font-bold'>
               Reviving Retro PCs
             </h2>
