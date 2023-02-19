@@ -2,24 +2,24 @@
 import React, { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
-function MainHeader() {
-  const [mobileMenu, setMobileMenu] = useState(false);
+function MainHeader({mobileMenu, setMobileMenu}: {mobileMenu: boolean, setMobileMenu: any}) {
+  
 
   return (
     <>
       {mobileMenu && (
-        <div className='absolute w-screen h-screen z-10 bg-black opacity-50  animate-darken' />
+        <div className='absolute w-screen h-full z-10 bg-black opacity-50  animate-darken' />
       )}
       <header className='flex justify-between items-center p-6 lg:px-40 lg:pt-16 '>
         <h1 className='text-6xl font-bold font-serif tracking-[-12px]'>W.</h1>
         {mobileMenu ? (
           <XMarkIcon
-            onClick={() => setMobileMenu((prevState) => !prevState)}
+            onClick={() => setMobileMenu((prevState: any) => !prevState)}
             className='md:hidden h-10 w-10 cursor-pointer z-30'
           />
         ) : (
           <Bars3Icon
-            onClick={() => setMobileMenu((prevState) => !prevState)}
+            onClick={() => setMobileMenu((prevState: any) => !prevState)}
             className='md:hidden h-10 w-10 cursor-pointer z-30'
           />
         )}
